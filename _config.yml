@@ -1,6 +1,10 @@
 # Site settings
 title: ReFwd
+<<<<<<< HEAD
 name: Weina Chen # your name
+=======
+name: Winona # your name
+>>>>>>> origin/gh-pages
 email: weina.winona.chen@gmail.com # your email address
 description: >
     A website for blogging. Re:Fwd:「No feeling is final.」
