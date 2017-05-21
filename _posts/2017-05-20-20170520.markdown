@@ -5,7 +5,7 @@ subtitle: "套用这个句式作为标题的原因，是因为卡佛那本经典
 date: 2017-05-20
 author: Winona
 category: Thoughts
-tags: daily test
+tags: daily
 finished: true
 ---
 
@@ -35,11 +35,7 @@ finished: true
 >
 > She watches an assistant come in and take the swab (and her future fate) in its plastic container away - go down the hall, and disappear around a corner.
 
-<<<<<<< HEAD
-或许由于「剧本」这个体裁的特殊性，除了每个人物的台词，全篇有很多类似于上述的场景描写。不同于小说的「描摹」，觉得剧本需要尽可能跳脱，不带感情色彩地去进行说明。于是，觉得有趣的地方来了。从剧本到影片，岂不是很像某种「升维」映射吗？导演和演员根据剧本的描述，呈现出一个更加立体的影像，进而传递难以用文字一五一十刻画出的情绪也好氛围也好，一种相对于剧本更「高维」的东西。譬如，看过影片会知道这是一个ABBIE有很多复杂微妙情绪的场景，她去医院进行子宫癌手术后的切片检查，她不停的拍照，既是她作为摄影师的习惯，又是她在当下那个场合尽可能让自己不那么焦虑的方法；不得不承认饰演ABBIE的 Greta Gerwig 很准确地表演出了剧本里的「watches an assistant come in and take the swab (and her future fate) in its plastic container away」，像是眼神流转，整个肢体语言，等等。或许正因为由低维向高维的映射途径各异，所以即便面对相同的剧本，不同的导演和演员也会拍摄出很不一样的作品。
-=======
 或许由于「剧本」这个体裁的特殊性，除了每个人物的台词，全篇有很多类似于上述的场景描写。不同于小说的「描摹」，剧本需要尽可能跳脱，不带感情色彩地去进行说明。于是，觉得有趣的地方来了。从剧本到影片，岂不是很像某种「升维」映射吗？导演和演员根据剧本的描述，呈现出一个更加立体的影像，进而传递难以用文字一五一十刻画出的情绪也好氛围也好，一种相对于剧本更「高维」的东西。譬如，看过影片会知道这是一个ABBIE有很多复杂微妙情绪的场景，她去医院进行子宫癌手术后的切片检查，她不停的拍照，既是她作为摄影师的习惯，又是她在当下那个场合尽可能让自己不那么焦虑的方法；不得不承认饰演ABBIE的 Greta Gerwig 很准确地表演出了剧本里的「watches an assistant come in and take the swab (and her future fate) in its plastic container away」，像是眼神流转，整个肢体语言，等等。或许正因为由低维向高维的映射途径各异，所以即便面对相同的剧本，不同的导演和演员也会拍摄出很不一样的作品。
->>>>>>> origin/gh-pages
 
 可是，紧接着的问题是，我们经常听到这样的说法，对于某部文学作品的具像化降低了作品本身的魅力，限制了读者的想象。在这样的语境下，我们似乎又觉得影像是相较于文字更「低维」一些的存在。
 
