@@ -1,0 +1,20 @@
+# Site settings
+title: ReFwd
+name: Weina Chen # your name
+email: weina.winona.chen@gmail.com # your email address
+description: >
+    A website for blogging. Re:Fwd:「No feeling is final.」
+baseurl: "/ReFwd" # the subpath of your site, e.g. /blog
+url: "https://refwd.github.io/ReFwd/" # the base hostname & protocol for your site
+twitter_username: thisisweina # your Twitter username
+github_username: viennachen # your Github username
+#instagram_username: winonachen_sr # your Instagram username
+#disqus_username: itisbenjamin # your disqus username
+
+#google-analytics: UA-75034651-1 # add it if you have one
+
+skillstree: false # turn on or off the skills tree in about page
+
+# Build settings
+permalink: none
+markdown: kramdown
