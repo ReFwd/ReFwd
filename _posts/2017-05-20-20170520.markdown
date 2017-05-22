@@ -4,8 +4,8 @@ title: "当我们谈论「维度」时我们在谈论什么"
 subtitle: "套用这个句式作为标题的原因，是因为卡佛那本经典的小说集，他用了其中每一个短篇反馈给了读者一个回答。所以，正好想借用这样的架构梳理一下自己对「维度」这个概念的理解。"
 date: 2017-05-20
 author: Winona
-category: Thoughts
-tags: daily
+category: Opinions
+tags: dimension
 finished: true
 ---
 
