@@ -10,9 +10,10 @@ finished: true
 ---
 
 > **Some Useful Sources**
->
 > - [Git Reference](http://gitref.org/)
 > - [Pro Git (2nd edition)](https://git-scm.com/book/en/v2)
+
+### 
 
 ```
 $ git clone <remote> <local>
