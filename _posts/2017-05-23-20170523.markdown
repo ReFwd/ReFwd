@@ -1,0 +1,89 @@
+---
+layout: post
+title: Git Cheat Sheet
+subtitle:
+date: 2017-05-23
+author: Winona
+category: Study Notes
+tags: Git Github
+finished: true
+---
+
+> **Some Useful Sources**
+> -[Git Reference](http://gitref.org/)
+> -[Pro Git (2nd edition)](https://git-scm.com/book/en/v2)
+
+```
+$ git clone <remote> <local>
+```
+
+```
+$ git status
+$ git log
+```
+
+```
+$ git add <file>
+$ git add .
+```
+
+```
+$ git reset HEAD --<file>
+```
+
+```
+$ git commit -m "..."
+```
+
+```
+$ git diff
+$ git diff --cached
+$ git diff HEAD
+$ git diff --stat
+$ git diff <branchA>...<branchB>
+```
+
+```
+$ git branch
+$ git branch <new-branch>
+$ git branch -a -v
+$ git branch -d <branch>
+```
+
+```
+$ git checkout <branch>
+$ git checkout -b <new-branch>
+```
+
+```
+$ git merge <branch>
+$ git merge <alias>/<branch>
+```
+
+```
+$ git remote
+$ git remote -v
+$ git remote add <alias>
+$ git remote rm <alias>
+$ git remote rename <old-alias> <new-alias>
+$ git remote set-url <alias> <new-url>
+```
+
+```
+$ git fetch <alias>
+```
+
+```
+$ git pull
+```
+
+```
+$ git push <alias> <branch>
+```
+
+```
+$ git config --global user.name
+$ git config --global user.name <new-name>
+$ git config --global user.email
+$ git config --global user.email <new-email>
+```
