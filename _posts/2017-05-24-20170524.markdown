@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [fast.ai] Practical Deep Learning For Coders
+title: fast.ai - Practical Deep Learning For Coders
 subtitle: 0. Required Setup
 date: 2017-05-24
 author: Winona
