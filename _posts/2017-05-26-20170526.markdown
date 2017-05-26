@@ -23,6 +23,9 @@ finished: true
 - [Notes - Lesson 0](http://wiki.fast.ai/index.php/Lesson_0)
 
 > **My takeaways and questions:**
-> 1. Kernel: The interactive explanation of [Image Kernels](http://setosa.io/ev/image-kernels/) is really helpful, especially when inputting customized kernel, you are able to see the corresponding output, which gives audience an explicit way to understand function of kernel. For instance, the 8 kernels that the lecturer use in the video sort of extract top, bottom, left, right, bottom right and four corners of the image, which are sufficient to "describe" the image, and I think that's why the lecturer said these are like "fingerprints".
+> 1. Kernel:
+> The interactive explanation of [Image Kernels](http://setosa.io/ev/image-kernels/) is really helpful, especially when inputting customized kernel, you are able to see the corresponding output, which gives audience an explicit way to understand function of kernel.
+> For instance, the 8 kernels that the lecturer use in the video sort of extract top, bottom, left, right, bottom right and four corners of the image, which are sufficient to "describe" the image, and I think that's why the lecturer said these are like "fingerprints".
+> One thing keeping in mind is that the matrix multiplication here is rather an element-wise product than an algebra product.
 > 2. Convolution:
 > 3. Pooling:
