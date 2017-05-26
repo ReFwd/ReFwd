@@ -24,8 +24,15 @@ finished: true
 
 > **My takeaways and questions:**
 > 1. Kernel
+> - Sometimes it can be called *filter*, *window* or *pixel group*.
 > - The interactive explanation of [Image Kernels](http://setosa.io/ev/image-kernels/) is really helpful, especially when inputting customized kernel, you are able to see the corresponding output, which gives audience an explicit way to understand function of kernel.
 > - For instance, the 8 kernels that the lecturer use in the video sort of extract top, bottom, left, right, bottom right and four corners of the image, which are sufficient to "describe" the image, and I think that's why the lecturer said these are like "fingerprints".
-> - One thing keeping in mind is that the matrix multiplication here is rather an element-wise product than an algebra product.
+> - One thing keeping in mind is that the matrix multiplication here is rather an element-wise product than an algebra product. From my understanding, the kernel is much more like a weight matrix for every window we choose in the image.
 > 2. Convolution
+> - Convolution projects the kernel(or the window) to one pixel in new image. In this lecture, the shape of original image changes from 28*28*1 to 26*26*8, where 8 is derived from 8 kernels while 26*26 is derived from window size of 3*3 and stride of 1. (ps: *stride* refers to as the number of pixels that window shifts over.)
+> - I would consider this process as re-presentation of the input image. In this case, after implementing 8 kernels, we finally get 8 different images derived from original one, and every new image emphasize certain feature of the original, e.g., when filtered by the first kernel, the new image kind of highlights all the "top" structures in original image.
 > 3. Pooling
+> - For me, pooling is similar to downsampling, trying to compress the size. There are different methods of pooling, in this lecture, pool out the maximum value within that window, and that's why we name it as max pooling. Of course we can implement other pooling methods such as average.
+> - The [answer](https://www.quora.com/What-is-max-pooling-in-convolutional-neural-networks) to a Quora question about max pooling explains how it works and why we need it in neural network. It indicates the objective of this process is to reduce the dimensionality in order to help over-fitting by providing an abstracted form of the representation.
+> 4. One layer consists of one convolution and one pooling.
+> 5. Here is [a mini episode about CNN](https://dataskeptic.com/blog/episodes/2017/convolutional-neural-networks), from one of my favorite data science podcast [Data Skeptic](https://dataskeptic.com/), which I find really helpful to understand the concept of CNN.
