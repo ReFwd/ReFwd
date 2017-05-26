@@ -37,4 +37,3 @@ finished: true
 > - The [answer](https://www.quora.com/What-is-max-pooling-in-convolutional-neural-networks) to a Quora question about max pooling explains how it works and why we need it in neural network. It indicates the objective of this process is to reduce the dimensionality in order to help over-fitting by providing an abstracted form of the representation.
 > 4. One layer consists of one convolution and one pooling.
 > 5. Here is [a mini episode about CNN](https://dataskeptic.com/blog/episodes/2017/convolutional-neural-networks), from one of my favorite data science podcast [Data Skeptic](https://dataskeptic.com/), which I find really helpful to understand the concept of CNN.
-</div>
