@@ -29,7 +29,7 @@ $ git add .
 ```
 
 ```
-$ git reset HEAD --<file>
+$ git reset HEAD -- <file>
 ```
 
 ```
