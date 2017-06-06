@@ -1,0 +1,33 @@
+---
+layout: post
+title: fast.ai - Practical Deep Learning For Coders - Lesson_1
+subtitle:
+date: 2017-06-06
+author: Winona
+category: Study Notes
+tags: DeepLearning AWS DogsCatsKaggle
+finished: true
+---
+
+
+### Lesson 1
+
+- [Homepage - Lesson 1](http://course.fast.ai/lessons/lesson1.html)
+- [Wiki - Lesson 1](http://wiki.fast.ai/index.php/Lesson_1)
+
+
+> **My takeaways and questions:**
+> 1. AWS EC2 instances
+> - use [aws-alias.sh](https://github.com/fastai/courses/blob/master/setup/aws-alias.sh) to manipulate instances.
+> 2. [lesson1.ipynb](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/lesson1.ipynb)
+> - When implementing the deep learning model of this lesson (vgg16), make sure the data structure is like:
+>   - train: folder1, folder2, ...
+>   - valid: folder1, folder2, ...
+>   - test
+> - In our case, split **dogs** and **cats** images into folders under `/train` and `/test`. Folders here represent relevant categories we want to classify.
+> - An automatic pipeline of conducting the data structure can refer to [dogs_cats_redux.ipynb](https://github.com/fastai/courses/blob/master/deeplearning1/nbs/dogs_cats_redux.ipynb).
+> 3. VGG model
+> - As mentioned in [Lesson 1 Notes](http://wiki.fast.ai/index.php/Lesson_1_Notes), it is pretty concise to use this model, since there are only 7 lines of code and the accuracy in validation dataset is almost more than 97%. Very impressive. But we should keep in mind that VGG is best applied in circumstances where the images are primarily of one object, such as our cats and dogs images.
+>
+>
+>
