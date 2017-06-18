@@ -4,7 +4,7 @@ title: 「玫瑰色的你」
 subtitle: 我觉得在听歌的时候<br>就像我们在面对诗的时候一样<br>保留一点这个不可解的部分<br>那个在核心闪烁着微光的<br>那个谜一样的东西<br>有的时候<br>它才是一首歌最迷人的部分<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;—— 马世芳 听说 第十六期 再见张悬
 date: 2017-05-30
 author: Winona
-category: Opinions
+category: Music
 tags: 音 张悬 焦安溥 神的游戏
 finished: true
 ---
