@@ -2,7 +2,7 @@
 layout: post
 title: 「没有色彩的多崎作和他的巡礼之年」
 subtitle: 忘记什么情况下得知了村上似乎在波士顿的Tufts任过两年客座讲师，所以每每经过波囤中国城边上的Tufts医学院总会不自禁想一下，就是这个学校啊...当然，村上执教的不是这个校区，估计是在Somerville的School of Arts and Sciences。上周参加pride parade，一行人先到Somerville停车，似乎沿途有经过Tufts校区，又不禁闪念了下「是这儿了」。
-date: 2017-06-16
+date: 2017-06-18
 author: Winona
 category: Books
 tags: 书 村上春树
