@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 「没有色彩的多崎作和他的巡礼之年」
-subtitle: 「Not everything was lost in the flow of time.」;&nbsp;&nbsp;—— p313
+subtitle: 「Not everything was lost in the flow of time.」<br><br>p313
 date: 2017-06-16
 author: Winona
 category: Books
@@ -26,3 +26,5 @@ finished: true
 非常喜欢小说后段关于多崎作到芬兰寻找Eri(Kuro)的章节。湖边小屋两人的寥寥对话，当时屋内屋外环境的细细描摹，多崎作游荡于赫尔辛基街头的思绪，回到日本后在时差中对于两人会面的回想...大概在这部小说里的多崎作，让我产生了镜像投射般的感受，从而在村上的描写里屡次产生「嗯，懂」这样的片刻共鸣。并不是没有色彩的作哟，不是Aka，不是Ao，不是Shiro，不是Kuro，大概恰恰是他自己的「颜色」才让他从这四位朋友中从如此这般的经历中，成为了「作」。
 
 > And in that moment, he was finally able to accept it all. In the deepest recesses of his soul, Tsukuru Tazaki understood. One heart is not connected to another through harmony alone. They are, instead, linked deeply through their wounds. Pain linked to pain, fragility to fragility. There is no silence without a cry of grief, no forgiveness without bloodshed, no acceptance without a passage through acute loss. This is what lies at the root of true harmony.
+>
+> p261
