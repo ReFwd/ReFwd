@@ -53,10 +53,10 @@ finished: true
 > The coefficients will be the same (for the analytical solution will not be affected)
 >
 > R-squared value will be the same (please refer to the definition of R-squared value).
-> ![day4_1](https://refwd.github.io/ReFwd/img/DS_Interview_Questions/day4_1.JPG)
+![day4_1](https://refwd.github.io/ReFwd/img/DS_Interview_Questions/day4_1.jpg)
 >
 > T-value will be roughly sqrt(2) times the previous t-value.
-> ![day4_2](https://refwd.github.io/ReFwd/img/DS_Interview_Questions/day4_2.JPG)
+![day4_2](https://refwd.github.io/ReFwd/img/DS_Interview_Questions/day4_2.jpg)
 >
 > Reference:
 > [https://en.wikipedia.org/wiki/Coefficient_of_determination](https://en.wikipedia.org/wiki/Coefficient_of_determination)
