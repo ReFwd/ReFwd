@@ -1,0 +1,94 @@
+---
+layout: post
+title: DS Interview Questions
+subtitle: Special Topic from Dataapplab
+date: 2017-06-22
+author: Winona
+category: Study Notes
+tags: DataScientist BusinessAnalyst Interview
+finished: true
+---
+
+
+### Day 1
+
+- What is regularization? The differences between Lasso and Ridge?
+> Regularization: a process of adding a tuning parameter to a model to induce smoothness of the weights (prevent the coefficients to fit so perfectly) in order to prevent overfitting. It is most often done by adding a constant multiple to an existing weight vector, the constant can be any norm (sometimes it will be Lasso or Ridge). Then the model predictions minimize the regularized loss function.
+>
+> L2 (Ridge): the sum of the square of the weights, it has analytical solution, higher computational efficiency.
+>
+> L1 (Lasso): the sum of the absolute value of the weights, it performs feature selection better than in sparse cases.
+>
+> Reference:
+> [http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/](http://www.chioka.in/differences-between-l1-and-l2-as-loss-function-and-regularization/)
+
+
+### Day 2
+
+- Can you derive the ordinary least square regression formula?
+> Ordinary least square (OLS) or linear least square is a method for estimating the unknown parameters in a linear regression model by minimizing the square residuals.
+>
+> Reference:
+> - If use a bivariate problem as an example to derive
+> [https://are.berkeley.edu/courses/EEP118/current/derive_ols.pdf](https://are.berkeley.edu/courses/EEP118/current/derive_ols.pdf)
+> - If we consider a more general case, please refer to this article:
+> [http://cs229.stanford.edu/notes/cs229-notes1.pd](http://cs229.stanford.edu/notes/cs229-notes1.pd)
+
+
+### Day 3
+
+- How to deal with overfitting?
+> - Use simpler models
+> - Parameter tweak overfitting
+>   - Choose the parameters properly when using a learning algorithm.
+> - Cross Validation
+>   - A standard way to find out-of-sample prediction error. This is better representative of the error you would expect when you're trying to predict a future value, rather than just how well you can fit the data at hand.
+> - Regularization
+>   - Some sort of regularization can help penalize certain sources of overfitting. A common one you can use in linear models is Ridge or Lasso, where you penalize your model if the sum of the norms of the slopes get too high.
+
+
+### Day 4
+
+- If I double every sample observation in a linear regression model, how will the coefficients, r-squared value and t-value change?
+> The coefficients will be the same (for the analytical solution will not be affected)
+>
+> R-squared value will be the same (please refer to the definition of R-squared value).
+> ![day4_1](https://refwd.github.io/ReFwd/img/DS_Interview_Questions/day4_1.JPG)
+>
+> T-value will be roughly sqrt(2) times the previous t-value.
+> ![day4_2](https://refwd.github.io/ReFwd/img/DS_Interview_Questions/day4_2.JPG)
+>
+> Reference:
+> [https://en.wikipedia.org/wiki/Coefficient_of_determination](https://en.wikipedia.org/wiki/Coefficient_of_determination)
+> [https://en.wikipedia.org/wiki/Student%27s_t-test](https://en.wikipedia.org/wiki/Student%27s_t-test)
+
+
+### Day 5
+
+- What's the disadvantages of linear regression?
+> - Linear regression are sensitive to outliers.
+> - Linear regression are meant to describe linear relationships between variables. (However, this can be compensated by transforming some of the parameters with a log, square root, etc. transformation.)
+> Linear regression assumes that the data are independent.
+
+
+### Day 6
+
+- Explain what precision and recall are. How do they relate to the ROC curve?
+> - In binary classification:
+>   - TN / True Negative: case was negative and predicted negative.
+>   - TP / True Positive: case was positive and predicted positive.
+>   - FN / False Negative: case was positive but predicted negative.
+>   - FP / False Positive: case was negative but predicted positive.
+>
+> - The precision:
+> TP/(TP+FP) the probability that a the true positive among the predicted positive, a measure of how many of the samples predicted by the classifier as positive is indeed positive.
+>
+> - The recall:
+> TP/(TP+FN) the probability that a the true positive among the conditioned positive, a measure of how many of the positive samples have been identified as being positive.
+>
+> - ROC curve:
+> represents a relation between sensitivity (RECALL) and specificity(NOT PRECISION) and is commonly used to measure the performance of binary classifiers.
+>
+> Reference:
+> [https://en.wikipedia.org/wiki/Precision_and_recall](https://en.wikipedia.org/wiki/Precision_and_recall)
+> [https://en.wikipedia.org/wiki/Confusion_matrix](https://en.wikipedia.org/wiki/Confusion_matrix)
