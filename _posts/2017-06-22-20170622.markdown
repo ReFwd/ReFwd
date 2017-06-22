@@ -5,7 +5,7 @@ subtitle: Special Topic from Dataapplab
 date: 2017-06-22
 author: Winona
 category: Study Notes
-tags: DataScientist BusinessAnalyst Interview
+tags: DataScientist Interview
 finished: true
 ---
 
