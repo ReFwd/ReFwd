@@ -120,4 +120,5 @@ finished: true
 
 - What is "long" ("tall") and "wide" format data, and the basic ways to deal with the data?
 > “Long ” format data: many more records (rows) than features (columns), the main method to deal with this kind of data is sample reduction or feature engineering (such as extract more features).
+>
 > “Wide” format data: a small number of records but a large number of features, the main method to deal with this kind of data is dimensionality reduction (such as feature selection, feature reduction like PCA).
