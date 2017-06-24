@@ -2,7 +2,7 @@
 layout: post
 title: DS Interview Questions
 subtitle: Special Topic from Dataapplab
-date: 2017-06-22
+date: 2017-06-24
 author: Winona
 category: Study Notes
 tags: DataScientist Interview
@@ -92,3 +92,32 @@ finished: true
 > Reference:
 > [https://en.wikipedia.org/wiki/Precision_and_recall](https://en.wikipedia.org/wiki/Precision_and_recall)
 > [https://en.wikipedia.org/wiki/Confusion_matrix](https://en.wikipedia.org/wiki/Confusion_matrix)
+
+
+### Day 7
+
+- Describe the method to deal with highly skewed binary data classification.
+> 1. Choose a proper performance matrix:
+>   - confusion matrix, precision, recall...
+>   - Between ROC Curve and PR (Precision vs Recall) Curve, PR works better than ROC.
+>
+> 2. Try to re-sample your datasets:
+>   - Over-sampling: add copies of instances from the underrepresented class; use systematic algorithm to generate new instances (Synthetic Minority Over-sampling Technique)
+>   - Under-sampling: delete instances from the over-represented class
+>
+> 3. Try Penalized Models:
+>   - Penalized classification imposes an additional cost on the model for making classification mistakes on the minority class during training. These penalties can bias the model to pay more attention to the minority class.
+>
+> 4. Try to see if there is possibility to collect more data to make it balanced.
+>
+> Reference:
+> [http://pages.cs.wisc.edu/~jdavis/davisgoadrichcamera2.pdf](http://pages.cs.wisc.edu/~jdavis/davisgoadrichcamera2.pdf)
+> [https://github.com/scikit-learn-contrib/imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn)
+> [http://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/](http://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/)
+
+
+### Day 8
+
+- What is "long" ("tall") and "wide" format data, and the basic ways to deal with the data?
+> “Long ” format data: many more records (rows) than features (columns), the main method to deal with this kind of data is sample reduction or feature engineering (such as extract more features).
+> “Wide” format data: a small number of records but a large number of features, the main method to deal with this kind of data is dimensionality reduction (such as feature selection, feature reduction like PCA).
